@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Ganggui Ding (丁港归)
+    - name: Ganggui Ding
     - name: Languages
       value: Chinese, English
 
@@ -12,10 +12,10 @@
       institution: Zhejiang University, Hangzhou, China
       year: 2020 -
       description:
-        - Advised by <a href="https://cshen.github.io">Chunhua Shen</a> and Hao Chen.
+        - Advised by <a href="https://cshen.github.io">Chunhua Shen</a> and <a href="https://scholar.google.com/citations?user=FaOqRpcAAAAJ">Hao Chen</a>.
     - title: B.S. in Network Engineering
       institution: Nanjing Agricultural University, Nanjing, China
-      year: 2020 - 2016
+      year: 2016 - 2020
 
 - title: Open Source Projects
   type: time_table
@@ -63,4 +63,4 @@
   type: list
   contents:
     - <u>Hobbies:</u> Geographical, Photography, Honor Of Kings
-    - <u>Favorite Star:</u><a href="https://weibo.com/u/1624923463">Huachen Yu</a>
+    - <u>Favorite Star:</u> <a href="https://weibo.com/u/1624923463">Chenyu Hua</a>

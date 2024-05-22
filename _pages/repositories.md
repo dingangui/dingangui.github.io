@@ -4,10 +4,10 @@ permalink: /repositories/
 title: repositories
 description: Most of my research has code open-sourced at GitHub.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
-## GitHub account
+## GitHub Account
 
 {% if site.data.repositories.github_users %}
 
