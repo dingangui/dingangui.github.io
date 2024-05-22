@@ -1,97 +1,66 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Ganggui Ding (丁港归)
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Zhejiang University, Hangzhou, China
+      year: 2020 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Advised by <a href="https://cshen.github.io">Chunhua Shen</a> and Hao Chen.
+    - title: B.S. in Network Engineering
+      institution: Nanjing Agricultural University, Nanjing, China
+      year: 2020 - 2016
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/aim-uofa/OIR">OIR</a>
+      year: 2024
+      description: An efficient approach for image editing based on diffusion model.
+    - title: <a href="https://github.com/aim-uofa/FreeCustom">FreeCustom</a>
+      year: 2024
+      description: A tuning-free method for customized image generation for multi-concept composition.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Excellent Graduate, Nanjing Agricultural University
+    - year: 2019
       items:
-        - Max Planck Medal
-
+        - Honorable Mention of Interdisciplinary Contest in Modeling (ICM)
+    - year: 2018
+      items:
+        - Jin Shanbao Scholarship of Nanjing Agricultural University
+    - year: 2018
+      items:
+        - Second Prize in the Chinese College Student Computer Design Competition
+    - year: 2018
+      items:
+        - Outstanding Volunteer and Advanced Individuals in Social Practice Activities of Nanjing Agricultural University
+    
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Diffusion Model
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Image Customization, Human Face Customization
+        - Instruction Model
+        - Large Multi-modal Model
+    - title: 3D Reconstruction
       items:
-        - Description 1.
-        - Description 2.
+        - 3D Generation
+        - SLAM
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Geographical, Photography, Honor Of Kings
+    - <u>Favorite Star:</u><a href="https://weibo.com/u/1624923463">Huachen Yu</a>
