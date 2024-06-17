@@ -14,3 +14,17 @@
   preview={oir_thumbnail.png},
   selected={true}
 }
+
+@inproceedings{ding2024freecustom,
+  title={FreeCustom: Tuning-Free Customized Image Generation for Multi-Concept Composition}, 
+  author={Ganggui Ding and Canyu Zhao and Wen Wang and Zhen Yang and Zide Liu and Hao Chen and Chunhua Shen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024},
+  abbr={CVPR},
+  abstract={Benefiting from large-scale pre-trained text-to-image (T2I) generative models, impressive progress has been achieved in customized image generation, which aims to generate user-specified concepts.Existing approaches have extensively focused on single-concept customization and still encounter challenges when it comes to complex scenarios that involve combining multiple concepts. These approaches often require retraining/fine-tuning using a few images, leading to time-consuming training processes and impeding their swift implementation. Furthermore, the reliance on multiple images to represent a singular concept increases the difficulty of customization. To this end, we propose <b>FreeCustom</b>, a novel tuning-free method to generate customized images of multi-concept composition based on reference concepts, using only one image per concept as input. Specifically, we introduce a new multi-reference self-attention (MRSA) mechanism and a weighted mask strategy that enables the generated image to access and focus more on the reference concepts. In addition, MRSA leverages our key finding that input concepts are better preserved when providing images with context interactions. Experiments show that our method's produced images are consistent with the given concepts and better aligned with the input text. Our method outperforms or performs on par with other training-based methods in terms of multi-concept composition and single-concept customization, but is simpler.},
+  pdf={https://arxiv.org/abs/2405.13870},
+  code={https://github.com/aim-uofa/FreeCustom/}, 
+  html={https://aim-uofa.github.io/FreeCustom/},
+  preview={freecustom_thumbnail.png},
+  selected={true}
+}
