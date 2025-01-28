@@ -1,17 +1,16 @@
 ---
 ---
 
-@article{yang2023OIR,
-  title={Object-aware Inversion and Reassembly for Image Editing},
-  author={Yang, Zhen and Ding, Ganggui and Wang, Wen and Chen, Hao and Zhuang, Bohan and Shen, Chunhua},
-  publisher={arXiv preprint arXiv:2310.12149},
-  year={2024},
-  abbr={ICLR},
-  abstract={Diffusion-based image editing methods have achieved remarkable advances in text-driven image editing. The editing task aims to convert an input image with the original text prompt into the desired image that is well-aligned with the target text prompt. By comparing the original and target prompts, we can obtain numerous editing pairs, each comprising an object and its corresponding editing target. To allow editability while maintaining fidelity to the input image, existing editing methods typically involve a fixed number of inversion steps that project the whole input image to its noisier latent representation, followed by a denoising process guided by the target prompt. However, we find that the optimal number of inversion steps for achieving ideal editing results varies significantly among different editing pairs, owing to varying editing difficulties. Therefore, the current literature, which relies on a fixed number of inversion steps, produces sub-optimal generation quality, especially when handling multiple editing pairs in a natural image. To this end, we propose a new image editing paradigm, dubbed Object-aware Inversion and Reassembly (OIR), to enable object-level fine-grained editing. Specifically, we design a new search metric, which determines the optimal inversion steps for each editing pair, by jointly considering the editability of the target and the fidelity of the non-editing region. We use our search metric to find the optimal inversion step for each editing pair when editing an image. We then edit these editing pairs separately to avoid concept mismatch. Subsequently, we propose an additional reassembly step to seamlessly integrate the respective editing results and the non-editing region to obtain the final edited image. To systematically evaluate the effectiveness of our method, we collect two datasets called OIRBench for benchmarking single- and multi-object editing, respectively. Experiments demonstrate that our method achieves superior performance in editing object shapes, colors, materials, categories, etc., especially in multi-object editing scenarios.},
-  pdf={https://arxiv.org/abs/2310.12149},
-  code={https://github.com/aim-uofa/OIR}, 
-  html={https://aim-uofa.github.io/OIR-Diffusion/},
-  preview={oir_thumbnail.png},
+
+@article{zhang2024channel,
+  title={Channel Merging: Preserving Specialization for Merged Experts},
+  author={Zhang, Mingyang and Liu, Jing and Ding, Ganggui and Yu, Xinyi and Ou, Linlin and Zhuang, Bohan},
+  booktitle={arXiv preprint arXiv:2412.15283},
+  year={2025},
+  abbr={AAAI},
+  abstract={Lately, the practice of utilizing task-specific fine-tuning has been implemented to improve the performance of large language models (LLM) in subsequent tasks. Through the integration of diverse LLMs, the overall competency of LLMs is significantly boosted. Nevertheless, traditional ensemble methods are notably memory-intensive, necessitating the simultaneous loading of all specialized models into GPU memory. To address the inefficiency, model merging strategies have emerged, merging all LLMs into one model to reduce the memory footprint during inference. Despite these advances, model merging often leads to parameter conflicts and performance decline as the number of experts increases. Previous methods to mitigate these conflicts include post-pruning and partial merging. However, both approaches have limitations, particularly in terms of performance and storage efficiency when merged experts increase. To address these challenges, we introduce Channel Merging, a novel strategy designed to minimize parameter conflicts while enhancing storage efficiency. This method initially clusters and merges channel parameters based on their similarity to form several groups offline. By ensuring that only highly similar parameters are merged within each group, it significantly reduces parameter conflicts. During inference, we can instantly look up the expert parameters from the merged groups, preserving specialized knowledge. Our experiments demonstrate that Channel Merging consistently delivers high performance, matching unmerged models in tasks like English and Chinese reasoning, mathematical reasoning, and code generation. Moreover, it obtains results comparable to model ensemble with just 53% parameters when used with a task-specific router.},
+  pdf={https://arxiv.org/abs/2412.15283},
+  preview={channelmerging_thumbnail.png},
   selected={true}
 }
 
@@ -29,14 +28,16 @@
   selected={true}
 }
 
-@article{zhang2024channel,
-  title={Channel Merging: Preserving Specialization for Merged Experts},
-  author={Zhang, Mingyang and Liu, Jing and Ding, Ganggui and Yu, Xinyi and Ou, Linlin and Zhuang, Bohan},
-  booktitle={arXiv preprint arXiv:2412.15283},
-  year={2025},
-  abbr={AAAI},
-  abstract={Lately, the practice of utilizing task-specific fine-tuning has been implemented to improve the performance of large language models (LLM) in subsequent tasks. Through the integration of diverse LLMs, the overall competency of LLMs is significantly boosted. Nevertheless, traditional ensemble methods are notably memory-intensive, necessitating the simultaneous loading of all specialized models into GPU memory. To address the inefficiency, model merging strategies have emerged, merging all LLMs into one model to reduce the memory footprint during inference. Despite these advances, model merging often leads to parameter conflicts and performance decline as the number of experts increases. Previous methods to mitigate these conflicts include post-pruning and partial merging. However, both approaches have limitations, particularly in terms of performance and storage efficiency when merged experts increase. To address these challenges, we introduce Channel Merging, a novel strategy designed to minimize parameter conflicts while enhancing storage efficiency. This method initially clusters and merges channel parameters based on their similarity to form several groups offline. By ensuring that only highly similar parameters are merged within each group, it significantly reduces parameter conflicts. During inference, we can instantly look up the expert parameters from the merged groups, preserving specialized knowledge. Our experiments demonstrate that Channel Merging consistently delivers high performance, matching unmerged models in tasks like English and Chinese reasoning, mathematical reasoning, and code generation. Moreover, it obtains results comparable to model ensemble with just 53% parameters when used with a task-specific router.},
-  pdf={https://arxiv.org/abs/2412.15283},
-  preview={channelmerging_thumbnail.png},
+@article{yang2023OIR,
+  title={Object-aware Inversion and Reassembly for Image Editing},
+  author={Yang, Zhen and Ding, Ganggui and Wang, Wen and Chen, Hao and Zhuang, Bohan and Shen, Chunhua},
+  publisher={arXiv preprint arXiv:2310.12149},
+  year={2024},
+  abbr={ICLR},
+  abstract={Diffusion-based image editing methods have achieved remarkable advances in text-driven image editing. The editing task aims to convert an input image with the original text prompt into the desired image that is well-aligned with the target text prompt. By comparing the original and target prompts, we can obtain numerous editing pairs, each comprising an object and its corresponding editing target. To allow editability while maintaining fidelity to the input image, existing editing methods typically involve a fixed number of inversion steps that project the whole input image to its noisier latent representation, followed by a denoising process guided by the target prompt. However, we find that the optimal number of inversion steps for achieving ideal editing results varies significantly among different editing pairs, owing to varying editing difficulties. Therefore, the current literature, which relies on a fixed number of inversion steps, produces sub-optimal generation quality, especially when handling multiple editing pairs in a natural image. To this end, we propose a new image editing paradigm, dubbed Object-aware Inversion and Reassembly (OIR), to enable object-level fine-grained editing. Specifically, we design a new search metric, which determines the optimal inversion steps for each editing pair, by jointly considering the editability of the target and the fidelity of the non-editing region. We use our search metric to find the optimal inversion step for each editing pair when editing an image. We then edit these editing pairs separately to avoid concept mismatch. Subsequently, we propose an additional reassembly step to seamlessly integrate the respective editing results and the non-editing region to obtain the final edited image. To systematically evaluate the effectiveness of our method, we collect two datasets called OIRBench for benchmarking single- and multi-object editing, respectively. Experiments demonstrate that our method achieves superior performance in editing object shapes, colors, materials, categories, etc., especially in multi-object editing scenarios.},
+  pdf={https://arxiv.org/abs/2310.12149},
+  code={https://github.com/aim-uofa/OIR}, 
+  html={https://aim-uofa.github.io/OIR-Diffusion/},
+  preview={oir_thumbnail.png},
   selected={true}
 }
